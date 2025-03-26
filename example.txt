@@ -1,6 +1,1 @@
 Hello, this is my first file operation!
-
-This is appended line
-This is appended line
-This is appended line
-This is appended line

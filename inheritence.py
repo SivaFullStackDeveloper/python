@@ -21,14 +21,14 @@ class Child(Parent):
         print("Im a young age person")
 
 
-# child = Child()
+child = Child()
 
-# child.generationChild()
-# child.ageChild()
-# child.ageParent()
-# child.generationParent()
-# child.generationGrandParent()
-# child.ageGrandParent()
+child.generationChild()
+child.ageChild()
+child.ageParent()
+child.generationParent()
+child.generationGrandParent()
+child.ageGrandParent()
 
 
 class A:

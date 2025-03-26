@@ -1,0 +1,16 @@
+import numpy as np
+
+zero = np.array(2)
+arr = np.array([1,2,3])
+c = np.array([[1, 2, 3], [4, 5, 6]])
+three = np.array([[[1, 2, 3], [4, 5, 6]]], dtype= 'int16')
+four = np.array([[[[1, 2, 3], [4, 5, 6]]], 4, 5, 6], dtype=object)
+print(zero.ndim)
+print(arr.ndim)
+print(c.ndim)
+print(three.ndim)
+print(four.ndim)
+print(four)
+print(four.dtype)
+print(three.dtype)
+print(four.itemsize)
