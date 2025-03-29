@@ -1,10 +1,9 @@
-from inheritence import  Child
-from inheritence import C
+import numpy as np
 
-obj = Child()
+arr = np.array([1,2,3,4,5])
+arr2 = np.array([6,9,8,7,10])
 
-obj.ageChild()
-
-
-obj1 = C()
-obj1.feauture6()
+print(arr + arr2) 
+print(arr - arr2) 
+print(arr * arr2) 
+print(arr / arr2) 
